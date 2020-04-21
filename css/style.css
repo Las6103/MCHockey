@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+/* Intro Banner Section */
+.container {
+
+}
+
+.nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ max-width: 1100px;
+ width: 90%;
+ margin: 15px auto;
+}
+
+.nav__landing__header {
+    padding: 15px 30px;
+}
+
+.nav__info__list {
+    display: flex;
+}
+.nav__info__list__items {
+    list-style: none;
+    padding: 15px 30px;
+}
+
+.jumbotron {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 85%;
+}
+
+.jumbotron__heading {
+    font-size: 80px;
+}
