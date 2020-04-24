@@ -7,7 +7,7 @@
     <title>Landing Page</title>
   </head>
   <body>
-    <div class="container">
+    <div class="hero">
       <nav class="nav">
         <div class="nav__landing">
           <h2 class="nav__landing__header">Landings</h2>
@@ -44,28 +44,32 @@
         <button class="btn__projects">View Our Projects</button>
       </div>
       <div class="info__img">
-        <img
-          src="/css/Rectangle 2.png"
+        <!--<img
+class="cards__image"           src="/css/Rectangle 2.png"
           alt="Building"
           class="info__img__image"
-        />
+        />-->
       </div>
     </section>
 
     <section class="cards">
-      <div class="cards__top">
-        <h2 class="cards__top__heading">Lorem ipsum dolor sit.</h2>
-        <p class="cards__top__subheading">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti esse
-          nobis repellat eius nesciunt. Quos fugit, beatae obcaecati dolore
-          facere quidem dolores asperiores.
-        </p>
+      <div class="wrapper">
+        <div class="cards__top">
+          <h2 class="cards__top__heading">Lorem ipsum dolor sit.</h2>
+          <p class="cards__top__subheading">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            esse nobis repellat eius nesciunt. Quos fugit, beatae obcaecati
+            dolore facere quidem dolores asperiores.
+          </p>
+        </div>
       </div>
 
       <div class="grid">
         <div class="cards__border">
           <div class="cards__content">
-            <img src="#" alt="Umbrella" />
+            <div class="cards__icon">
+              <img class="cards__image" src="/css/Path 1.png" alt="Umbrella" />
+            </div>
             <p class="cards__content__heading">Peace of Mind</p>
             <p class="cards__content__para">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -75,8 +79,10 @@
         </div>
         <div class="cards__border">
           <div class="cards__content">
-            <img src="#" alt="Umbrella" />
-            <p class="cards__content__heading">Coffee Breaks</p>
+            <div class="cards__icon">
+              <img class="cards__image" src="/css/Path 7.png" alt="Umbrella" />
+            </div>
+            <p class="cards__content__heading">Peace of Mind</p>
             <p class="cards__content__para">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reiciendis delectus atque minus molestiae velit.
@@ -85,8 +91,10 @@
         </div>
         <div class="cards__border">
           <div class="cards__content">
-            <img src="#" alt="Umbrella" />
-            <p class="cards__content__heading">Rewards</p>
+            <div class="cards__icon">
+              <img class="cards__image" src="/css/Path 8.png" alt="Umbrella" />
+            </div>
+            <p class="cards__content__heading">Peace of Mind</p>
             <p class="cards__content__para">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reiciendis delectus atque minus molestiae velit.
@@ -95,8 +103,10 @@
         </div>
         <div class="cards__border">
           <div class="cards__content">
-            <img src="#" alt="Umbrella" />
-            <p class="cards__content__heading">Delivery</p>
+            <div class="cards__icon">
+              <img class="cards__image" src="/css/Path 9.png" alt="Umbrella" />
+            </div>
+            <p class="cards__content__heading">Peace of Mind</p>
             <p class="cards__content__para">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reiciendis delectus atque minus molestiae velit.
@@ -105,8 +115,10 @@
         </div>
         <div class="cards__border">
           <div class="cards__content">
-            <img src="#" alt="Umbrella" />
-            <p class="cards__content__heading">Inbox</p>
+            <div class="cards__icon">
+              <img class="cards__image" src="/css/Path 11.png" alt="Umbrella" />
+            </div>
+            <p class="cards__content__heading">Peace of Mind</p>
             <p class="cards__content__para">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reiciendis delectus atque minus molestiae velit.
@@ -115,73 +127,40 @@
         </div>
         <div class="cards__border">
           <div class="cards__content">
-            <img src="#" alt="Umbrella" />
-            <p class="cards__content__heading">Settings</p>
+            <div class="cards__icon">
+              <img class="cards__image" src="/css/Path 10.png" alt="trash" />
+            </div>
+            <p class="cards__content__heading">Peace of Mind</p>
             <p class="cards__content__para">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reiciendis delectus atque minus molestiae velit.
             </p>
           </div>
         </div>
-      </div>
     </section>
 
     <section class="video">
-      <button class="video__play"><img src="" alt="" /></button>
-      <h2 class="video__headings">Our Case Studies</h2>
-      <p class="video__para">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores itaque
-        aut consectetur illo, cupiditate provident, debitis, nobis dignissimos
-        voluptatem voluptatibus facere facilis quas.
-      </p>
+      <div class="video__content">
+        <button class="video__content__play">
+          <img class="cards__image" src="/css/video.png" alt="play" />
+        </button>
+        <h2 class="video__content__headings">Our Case Studies</h2>
+        <p class="video__content__para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          itaque aut consectetur illo, cupiditate provident, debitis, nobis
+          dignissimos voluptatem voluptatibus facere facilis quas.
+        </p>
+      </div>
     </section>
 
     <section class="featured">
-      <h2 class="featured__heading">Featured Projects</h2>
-      <p class="featured__para">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum libero
-        praesentium ipsam sint magnam, maxime accusantium laudantium explicabo
-        hic vel asperiores modi in?
-      </p>
-    </section>
-
-    <section class="info">
-      <div class="info__article">
-        <h1 class="info__article__heading">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </h1>
-        <p class="info__article__subheading">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos,
-          blanditiis repudiandae? Atque fugit unde laborum eius.
+      <div class="featured__content">
+        <h2 class="featured__heading">Featured Projects</h2>
+        <p class="featured__para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum libero
+          praesentium ipsam sint magnam, maxime accusantium laudantium explicabo
+          hic vel asperiores modi in?
         </p>
-        <button class="btn__projects">View Our Projects</button>
-      </div>
-      <div class="info__img">
-        <img
-          src="/css/Rectangle 2.png"
-          alt="Building"
-          class="info__img__image"
-        />
-      </div>
-    </section>
-
-    <section class="info">
-      <div class="info__img">
-        <img
-          src="/css/Rectangle 2.png"
-          alt="Building"
-          class="info__img__image"
-        />
-      </div>
-      <div class="info__article">
-        <h1 class="info__article__heading">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </h1>
-        <p class="info__article__subheading">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos,
-          blanditiis repudiandae? Atque fugit unde laborum eius.
-        </p>
-        <button class="btn__projects">View Our Projects</button>
       </div>
     </section>
 
@@ -196,13 +175,35 @@
         </p>
         <button class="btn__projects">View Our Projects</button>
       </div>
-      <div class="info__img">
-        <img
-          src="/css/Rectangle 2.png"
-          alt="Building"
-          class="info__img__image"
-        />
+      <div class="info__img"></div>
+    </section>
+
+    <section class="info">
+      <div class="info__img"></div>
+      <div class="info__article">
+        <h1 class="info__article__heading">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </h1>
+        <p class="info__article__subheading">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos,
+          blanditiis repudiandae? Atque fugit unde laborum eius.
+        </p>
+        <button class="btn__projects">View Our Projects</button>
       </div>
+    </section>
+
+    <section class="info">
+      <div class="info__article">
+        <h1 class="info__article__heading">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </h1>
+        <p class="info__article__subheading">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos,
+          blanditiis repudiandae? Atque fugit unde laborum eius.
+        </p>
+        <button class="btn__projects">View Our Projects</button>
+      </div>
+      <div class="info__img"></div>
     </section>
     <footer>
       <p class="footer">Copyright 2017. AllRights Reserved.</p>
