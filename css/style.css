@@ -5,6 +5,7 @@
 
 body {
   font-size: 16px;
+  font-family: 'Poppins', sans-serif;
   max-width: 1100px;
   margin: 0 auto;
   background-color: rgb(0, 70, 150);
@@ -12,7 +13,7 @@ body {
 /* Intro Banner Section */
 .hero {
   position: relative;
-  background-image: url(/css/Header.png);
+  background-image: url('/css/Header.png');
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -140,7 +141,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url(/css/ocean.png);
+  background-image: url('/css/ocean.png');
   background-size: cover;
 }
 
@@ -164,4 +165,11 @@ body {
 .featured__content {
   width: 60%;
   margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(50, 93, 255);
+    color: rgb(158, 178, 255);
+    padding: 2rem 0;
 }
