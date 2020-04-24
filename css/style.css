@@ -3,8 +3,11 @@
   padding: 0;
 }
 
-body {
+html {
   font-size: 16px;
+}
+
+body {
   font-family: "Poppins", sans-serif;
   max-width: 1100px;
   margin: 0 auto;
@@ -92,9 +95,22 @@ body {
 }
 
 .info__img {
-  background-image: url("/css/Rectangle 2.png");
   background-size: cover;
   flex: 1 1 calc(1 / 2 * 100%);
+}
+.building {
+  background-image: url("/css/Rectangle 2.png");
+}
+.tree {
+  background-image: url("/css/Rectangle 10.png");
+}
+
+.rose {
+ background-image: url("/css/Rectangle 11.png");
+}
+
+.flowers {
+ background-image: url("/css/Rectangle 14.png");
 }
 
 .card {
@@ -176,7 +192,7 @@ body {
 }
 
 .video__content__headings {
- font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 
 .featured {
@@ -198,6 +214,20 @@ footer {
 }
 
 @media (max-width: 910px) {
+  html {
+    font-size: 13px;
+  }
+
+  .nav {
+    flex-direction: column;
+    padding: 0;
+    font-size: 1.2rem;
+  }
+
+  .jumbotron__heading {
+    font-size: 4rem;
+  }
+
   .grid {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
