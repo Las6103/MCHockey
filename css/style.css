@@ -22,7 +22,7 @@ p {
 
 .hero {
   position: relative;
-  background-image: url("/css/Header.png");
+  background-image: url("Header.png");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -110,18 +110,18 @@ p {
   flex: 1 1 calc(1 / 2 * 100%);
 }
 .building {
-  background-image: url("/css/Rectangle 2.png");
+  background-image: url("Rectangle 2.png");
 }
 .tree {
-  background-image: url("/css/Rectangle 10.png");
+  background-image: url("Rectangle 10.png");
 }
 
 .rose {
- background-image: url("/css/Rectangle 11.png");
+ background-image: url("Rectangle 11.png");
 }
 
 .flowers {
- background-image: url("/css/Rectangle 14.png");
+ background-image: url("Rectangle 14.png");
 }
 
 .card {
@@ -175,7 +175,7 @@ p {
 }
 
 .cards__icon {
-  background-image: url("/css/Ellipse 1.png");
+  background-image: url("Ellipse 1.png");
   background-size: cover;
   height: 4.5rem;
   width: 4.5rem;
@@ -191,7 +191,7 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url("/css/ocean.png");
+  background-image: url("ocean.png");
   background-size: cover;
   height: 500px;
   color: white;
