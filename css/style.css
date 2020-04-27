@@ -11,7 +11,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: "Lato", sans-serif;
   font-weight: 300;
 }
@@ -72,7 +73,7 @@ p {
 }
 
 .btn__projects {
-  font-size: .8rem;
+  font-size: 0.8rem;
   padding: 1.3rem 2.5rem;
   border-radius: 50px;
   border-color: rgb(50, 93, 255);
@@ -82,7 +83,7 @@ p {
   font-family: "Lato", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: .25rem;
+  letter-spacing: 0.25rem;
 }
 
 .info {
@@ -117,11 +118,11 @@ p {
 }
 
 .rose {
- background-image: url("Rectangle 11.png");
+  background-image: url("Rectangle 11.png");
 }
 
 .flowers {
- background-image: url("Rectangle 14.png");
+  background-image: url("Rectangle 14.png");
 }
 
 .card {
@@ -142,7 +143,7 @@ p {
 .cards__top__heading {
   font-size: 1.8rem;
   font-weight: 300;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
 .grid {
@@ -211,7 +212,7 @@ p {
 
 .video__content__headings {
   font-size: 1.9rem;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
 .featured {
@@ -227,7 +228,7 @@ p {
 
 .featured__heading {
   font-size: 1.9rem;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
 footer {
@@ -245,7 +246,7 @@ footer {
   .hero {
     min-height: 500px;
   }
-  
+
   .nav {
     flex-direction: column;
     padding: 0;
@@ -292,7 +293,7 @@ footer {
   }
 
   .nav__info__list__items {
-    padding: 1rem .7rem;
+    padding: 1rem 0.7rem;
   }
 
   .jumbotron {
@@ -302,7 +303,6 @@ footer {
   .video {
     max-height: 300px;
   }
-  
 }
 
 @media (min-width: 1500px) {
