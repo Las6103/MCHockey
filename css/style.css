@@ -110,6 +110,7 @@ p {
   background-size: cover;
   flex: 1 1 calc(1 / 2 * 100%);
 }
+
 .building {
   background-image: url("Rectangle 2.png");
 }
