@@ -310,3 +310,9 @@ footer {
     font-size: 22px;
   }
 }
+
+@media (min-width: 2000px) {
+  html {
+    font-size: 26px;
+  }
+}
