@@ -21,9 +21,18 @@ p {
   font-weight: 200;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
 .hero {
   position: relative;
-  background-image: url("Header.png");
+  background-image: url("Team\ Pic.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -40,12 +49,38 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 2rem;
+  padding: 0.2rem;
   box-sizing: border-box;
+  background-color: rgb(81, 35, 127);
+}
+
+.nav__landing {
+  margin: 0.5rem 2rem;
+  display: flex;
 }
 
 .nav__landing__header {
-  padding: 1rem 1.9rem;
+  padding: 1.5rem 2.5rem;
+  background-image: url("./MCRAsset.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav__landing__acchl {
+  padding: 1.5rem 2.5rem;
+  background-image: url("./acchl.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav__landing__chf {
+  padding: 1.5rem 2.5rem;
+  background-image: url("./CHF_logo_large.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .nav__info__list {
@@ -54,9 +89,10 @@ p {
 .nav__info__list__items {
   list-style: none;
   padding: 1rem 1.9rem;
+  /* color: rgb(81, 35, 127); */
 }
 
-.jumbotron {
+/* .jumbotron {
   text-align: center;
   margin: 0 auto;
   max-width: 60%;
@@ -70,20 +106,25 @@ p {
 
 .jumbotron__subheading {
   padding-bottom: 1.4rem;
-}
+} */
 
 .btn__projects {
   font-size: 0.8rem;
   padding: 1.3rem 2.5rem;
   border-radius: 50px;
-  border-color: rgb(50, 93, 255);
+  border-color: rgb(121, 56, 187);
   outline: none;
-  background-color: rgb(50, 93, 255);
+  background-color: rgb(81, 35, 127);
   color: white;
   font-family: "Lato", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
+}
+
+.btn__projects:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 .info {
@@ -97,6 +138,14 @@ p {
   flex: 1 1 calc(1 / 2 * 100%);
 }
 
+.ig__iframe {
+  box-sizing: border-box;
+  padding: 1rem;
+  flex: 1 1 calc(1 / 2 * 100%);
+  display: flex;
+  justify-content: center;
+}
+
 .info__article__heading {
   font-size: 2.3rem;
   font-weight: 300;
@@ -108,22 +157,28 @@ p {
 
 .info__img {
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   flex: 1 1 calc(1 / 2 * 100%);
 }
 
 .building {
-  background-image: url("Rectangle 2.png");
+  background-image: url("Matt.jpg");
 }
 .tree {
   background-image: url("Rectangle 10.png");
 }
 
 .rose {
-  background-image: url("Rectangle 11.png");
+  background-image: url("Hug.jpg");
 }
 
 .flowers {
-  background-image: url("Rectangle 14.png");
+  background-image: url("coaching.jpg");
+}
+
+.cavey {
+  background-image: url("./cavey.jpg");
 }
 
 .card {
@@ -234,7 +289,7 @@ p {
 
 footer {
   text-align: center;
-  background-color: rgb(50, 93, 255);
+  background-color: rgb(81, 35, 127);
   color: rgb(158, 178, 255);
   padding: 2rem 0;
 }
@@ -268,7 +323,7 @@ footer {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 710px) {
   .info {
     flex-direction: column;
     flex-basis: 100%;
@@ -316,4 +371,102 @@ footer {
   html {
     font-size: 26px;
   }
+}
+
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal.open {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
+}
+.modal-bg {
+  position: absolute;
+  background: rgb(81, 35, 127);
+  width: 100%;
+  height: 100%;
+}
+.modal-container {
+  border-radius: 10px;
+  background: #fff;
+  position: relative;
+  padding: 30px;
+  width: 80%;
+}
+.modal-close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  outline: none;
+  appearance: none;
+  color: red;
+  background: none;
+  border: 0px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.coaches {
+  font-size: 1rem;
+}
+
+/* .fa { */
+/* padding: 20px;
+  font-size: 30px;
+  /* width: 50px; */
+/* text-align: center; */
+/* text-decoration: none; */
+/* margin: 5px 2px; */
+/* } */
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  /* background: #125688; */
+  color: white;
 }
